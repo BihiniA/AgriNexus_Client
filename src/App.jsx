@@ -19,6 +19,7 @@ import AddTask from './components/Admin/AddTask';
 import AddInventory from './components/Admin/AddInventory';
 import AddProduct from './components/Admin/AddProduct';
 import AddOrder from './components/Admin/AddOrder';
+import UpdatePlant from './components/Admin/UpdatePlant';
 
 // Layout component for user pages
 const UserLayout = ({ children }) => (
@@ -92,6 +93,11 @@ function App() {
         <Route path="/admin/plants/add-plant" element={
           <AdminLayout>
             <AddPlant />
+          </AdminLayout>
+        } />
+        <Route path="/admin/plants/update/:id" element={
+          <AdminLayout>
+            <UpdatePlant />
           </AdminLayout>
         } />
         <Route path="/admin/tasks" element={
