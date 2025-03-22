@@ -112,6 +112,7 @@ const AddProduct = () => {
           </select>
         </div>
 
+// Add quantity
         <div className="mb-6">
           <label htmlFor="qty" className="block text-gray-700 mb-1">Quantity:</label>
           <input
