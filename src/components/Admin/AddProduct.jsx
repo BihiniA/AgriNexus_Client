@@ -93,6 +93,7 @@ const AddProduct = () => {
           />
         </div>
 
+        // Add category
         <div className="mb-4">
           <label htmlFor="category" className="block text-gray-700 mb-1">Category:</label>
           <select
