@@ -78,6 +78,7 @@ const AddProduct = () => {
       {successMessage && <p className="text-green-600 mb-4">{successMessage}</p>}
       {errorMessage && <p className="text-red-600 mb-4">{errorMessage}</p>}
       
+      // Add name
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-700 mb-1">Name:</label>
