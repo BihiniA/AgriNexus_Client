@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+// Display Inquiry List
 const InquiryList = () => {
   const [inquiries, setInquiries] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");

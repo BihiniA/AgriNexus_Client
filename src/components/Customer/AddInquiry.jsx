@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// Add Inquiry
 const AddInquiry = () => {
     const [formData, setFormData] = useState({
         plantName: '',
