@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
+// Update Plant details
 const UpdatePlant = () => {
   const { id } = useParams(); // Get plant ID from the URL
   const navigate = useNavigate();
