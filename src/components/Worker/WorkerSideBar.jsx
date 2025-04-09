@@ -17,44 +17,29 @@ const Sidebar = ({ isOpen }) => {
   const menuItems = [
     {
       icon: <Home size={20} />,
-      title: 'Plant Management',
+      title: 'Tasks',
       active: true,
-      path: '/admin/plants'
+      path: '/worker/tasks'
     },
     {
       icon: <Users size={20} />,
-      title: 'Task Schedule Management',
-      path: '/admin/tasks'
+      title: 'Tasks',
+      path: '/worker/tasks'
     },
     {
       icon: <ShoppingBag size={20} />,
-      title: 'Inventory Management',
-      path: '/admin/inventory'
-    },
-    {
-      icon: <BarChart2 size={20} />,
-      title: 'Product Management',
-      path: '/admin/products'
-    },
-    {
-      icon: <FileText size={20} />,
-      title: 'Order $ Delivery Management',
-      path: '/admin/orders'
-    },
-    {
-      icon: <FileText size={20} />,
-      title: 'Inquiry Management',
-      path: '/admin/inquiry'
+      title: 'Inventory',
+      path: '/worker/inventory'
     },
     {
       icon: <Settings size={20} />,
       title: 'Settings',
-      path: '/admin/settings'
+      path: '/worker/settings'
     },
     {
       icon: <HelpCircle size={20} />,
       title: 'Help',
-      path: '/admin/help'
+      path: '/worker/help'
     },
   ];
   
@@ -70,7 +55,7 @@ const Sidebar = ({ isOpen }) => {
     >
       <div className="flex items-center justify-center h-16 border-b">
         {isOpen ? (
-          <h2 className="text-xl font-bold text-blue-600">AdminPanel</h2>
+          <h2 className="text-xl font-bold text-blue-600">Worker Dashboard</h2>
         ) : (
           <span className="text-xl font-bold text-blue-600">AP</span>
         )}

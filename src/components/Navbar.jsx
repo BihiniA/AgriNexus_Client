@@ -22,7 +22,7 @@ export default function Navbar() {
               <Link to="/" className="hover:text-green-200 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Home</Link>
               <Link to="/about" className="hover:text-green-200 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">About</Link>
               <Link to="/sign-in" className="bg-green-600 hover:bg-green-500 px-5 py-2 rounded-lg text-sm font-medium transition-all duration-200 shadow-md hover:shadow-lg">Login</Link>
-              <Link to="/sign-in" className="bg-green-600 hover:bg-green-500 px-5 py-2 rounded-lg text-sm font-medium transition-all duration-200 shadow-md hover:shadow-lg">Register</Link>
+              <Link to="/sign-up" className="bg-green-600 hover:bg-green-500 px-5 py-2 rounded-lg text-sm font-medium transition-all duration-200 shadow-md hover:shadow-lg">Register</Link>
             </div>
           </div>
           
