@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 
+// Display all plant records
 const PlantManagement = () => {
   const [plants, setPlants] = useState([]);
   const [searchTerm, setSearchTerm] = useState(""); // State to track the search term
